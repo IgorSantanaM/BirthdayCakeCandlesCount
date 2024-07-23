@@ -48,3 +48,6 @@ dotnet restore
 dotnet run
 ```
 This will compile the application, restore any necessary packages, and execute the Main method in Solution.cs, which reads input from the console, calculates the number of tallest candles using the birthdayCakeCandles function, and prints the result.
+
+### About
+The code was a HackerRank problem.
