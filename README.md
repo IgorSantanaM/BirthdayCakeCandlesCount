@@ -24,3 +24,27 @@ The solution involves a function `birthdayCakeCandles` that takes a list of inte
 ```csharp
 public static int birthdayCakeCandles(List<int> candles)
 ```
+### Input Format
+The first line of input contains an integer n, which indicates the number of candles.
+The second line contains n space-separated integers, each representing the height of a candle.
+### Output Format
+Output a single integer, the number of tallest candles.
+How to Use
+Prerequisites
+.NET SDK installed on your machine.
+Clone the Repository
+Clone this repository to your local machine using:
+``` bash
+git clone https://github.com/IgorSantanaM/BirthdayCakeCandles.git
+```
+Navigate to the Project Directory
+``` bash
+cd BirthdayCakeCandles
+```
+Run the Application
+To run the application, use the following commands:
+``` bash
+dotnet restore
+dotnet run
+```
+This will compile the application, restore any necessary packages, and execute the Main method in Solution.cs, which reads input from the console, calculates the number of tallest candles using the birthdayCakeCandles function, and prints the result.
